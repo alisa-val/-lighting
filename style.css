@@ -1,0 +1,546 @@
+.title{
+    font-family: "Oswald";
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #343434;
+    margin-left: 40px;
+
+
+}
+.header{
+    background: rgba(0, 91, 193, 0.6);
+}
+.intro{
+    height: 800px;
+    background: url(./img/Rectangle2.jpg) center no-repeat;
+    background-size: cover;
+}
+/* Navigation*/
+.navbar-nav{
+    color:#fff;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+.nav-link{
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #949494;
+}
+.collapse .navbar-collapse{
+    display: flex;
+    justify-content: center;
+}
+.container .row .main-view-intro{
+    height: calc(100vh - 84px);
+}
+/*Header content*/
+.header_title{
+    font-family:"Oswald";
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    display: flex;
+}
+.header_text{
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    display: flex;
+}
+.row .btn{
+    border: 2px solid;
+    border-radius: 0;
+}
+/*Olimp*/ 
+.olimp{
+    padding-top: 70px;
+
+}
+.olimp_img{
+    position: relative;
+    width: 510px;
+    height: 400px;
+}
+.olimp_text{
+    position: absolute;
+    padding: 20px 25px 40px 25px ;
+    background-color: #fff;
+    height: 110px;
+    z-index: 5;
+    transform:translateX(190px) translateY(260px);
+
+}
+.olimp_content{
+    padding-right: 20px;
+}
+.olimp_title{
+    font-family: "Oswald";
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #343434;
+}
+.olimp_desc{
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #343434;
+}
+
+/*Catalog*/
+.catalog{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.catalog_link{
+    font-family: "Oswald";
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+.catalog_link:hover .catalog_link:active{
+    color: #005BC1;
+
+}
+.catalog_pic{
+    position: relative;
+    width: 350px;
+    height: 300px;
+}
+.catalog_text{
+    color: #fff;
+    height: 60px;
+    text-align: center;
+    width: 210px;
+    position: absolute;
+    font-family: "Oswald";
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color:#005BC1;
+    z-index: 1;
+    transform: translateX(140px) translateY(-100px);
+}
+.catalog_content hr{
+   height: 2px;
+   margin-top: 13px;
+   margin-bottom: 0px;
+}
+.catalog_content{
+    margin-top: 150px;
+}
+/*Product*/
+.product{
+    margin-top: 40px;
+}
+.rent_text{
+    width: 350px;
+    height: 175px;
+    padding-top: 100px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #343434;
+    
+    
+}
+.rent_product .product_img{
+    max-width: 250px;
+    max-height: 250px;
+}
+.rent_product{
+    max-width: 665px;
+    min-height: 394px;
+    border: 3px solid #005BC1;;
+}
+.product_title{
+    padding-top: 40px;
+    font-family: "Oswald";
+    color: #343434;
+    font-size: 18px;
+    line-height: 27px;
+}
+.product_btn{
+    padding-left: 60px;
+}
+.product_btn .btn{
+    border-radius: 0px;
+    padding: 6px 12px ;
+}
+ul{
+    font-family: "Oswald";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #343434;
+
+}
+li{
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #343434;
+    padding-top: 30px;
+}
+/*News*/
+.catalog_content .btn{
+    border-radius:0;
+
+}
+.news{
+    margin-top: 77px;
+    margin-bottom: 120px;
+}
+.news_pic img{
+    width: 255px;
+    height: 242px;
+}
+.news_milos, .news_robe{
+    padding-left: 35px;
+}
+.title_text{
+    padding-left: 14px;
+    font-family: "Oswald";
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #343434;
+}
+.milos_data{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: right;
+    color: #979797;
+}
+.milos_text{
+    padding-top: 40px;
+    font-family: "Open Sans";
+    width: 255px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #343434;
+}
+.milos_more{
+    padding-top: 20px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #343434;
+}
+.robe_title{
+    width: 225px;
+    font-family: "Oswald";
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #343434;
+}
+.robe_text{
+    padding-top: 20px;
+    width: 225px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #343434;
+}
+.info_pic{
+    padding-left: 12px;
+    width: 128px;
+    height: 115px;
+}
+.info_data{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #979797;
+}
+.robe_info{
+    padding-top: 20px;
+    
+}
+/*Footer*/
+.footer{
+    background-color:#005BC1;
+}
+.contacts{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 40px 0 29px 0;
+}
+.about_us{
+    height: 100px;
+}
+.about_us a{
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.about_us a:hover{
+    color:#343434;
+    text-decoration-line:underline;
+}
+.company{
+    color:#FFFFFF;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    padding:20px 0;
+}
+
+@media (max-width: 1024px){
+    .comtainer{
+        width: auto;
+        height: auto;
+    }
+    .header_title{
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .title{
+        font-size: 27px;
+    }
+    .container .olimp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+    }
+    .olimp_img{
+        width: 420px;
+        height: 310px;
+    }
+    .product_img{
+        width: 240px;
+        height: 240px;
+    }
+    .product_btn .btn{
+        border-radius: 0px;
+        padding: 6px 12px ;
+        width: auto;
+        height: fit-content;
+    }
+    .olimp_text{
+        height: 90px;
+        transform: translateX(180px) translateY(190px);
+    }
+    .olimp_title{
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    .olimp_desc{
+        font-size: 10px;
+        line-height: 15px; 
+    }
+    .catalog_pic{
+        width: 300px;
+        height: 270px;
+    }
+    .catalog_text{
+        height: 50px;
+        width: 190px;
+        font-size: 16px;
+        transform: translateX(110px) translateY(-80px);
+    }
+    .rent_product {
+        width: 530px;
+        
+    }
+    .news_milos, .news_robe{
+        padding-left: 25px;
+    }
+    ul{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    li{
+        font-size: 12px;
+        padding-top: 10px;
+    }
+}
+@media (max-width:768px){
+    .comtainer{
+        width: auto;
+        height: auto;
+    }
+    .header_title{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .olimp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .product{
+        flex-direction: column-reverse;
+    }
+    .product_img{
+        width: 230px;
+        height: 230px;
+    }
+    .catalog_content .offset-6 {
+        margin-left: 20%;
+    }
+    .product_btn .btn{
+        border-radius: 0px;
+        padding: 4px 10px ;
+    }
+    .olimp_img{
+        padding-top: 15px;
+        width: 410px;
+        height: 300px;
+    }
+    .olimp_text{
+        height: 80px;
+        transform: translateX(180px) translateY(190px);
+    }
+    .olimp_title{
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 8px;
+    }
+    .olimp_desc{
+        font-size: 8px;
+        line-height: 13px; 
+    }
+    .catalog_img{
+        margin-top: 20px;
+    }
+    .catalog_pic{
+        width: 290px;
+        height: 240px;
+    }
+    .catalog_item{
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    .catalog_text{
+        height: 45px;
+        width: 185px;
+        font-size: 14px;
+        transform: translateX(104px) translateY(-80px);
+    }
+    .product_btn {
+        padding-left: 20px;
+    }
+    .product{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .rent_product {
+        width: 450px;
+    }
+    .news_milos, .news_robe{
+        padding-left: 25px;
+    }
+    ul{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    li{
+        font-size: 10px;
+        padding-top: 8px;
+    }
+
+
+}
+@media (max-width:425px){
+    .comtainer{
+        width: auto;
+        height: auto;  
+    }
+    .navbar-nav{
+        flex-direction: column;
+    }
+    .olimp{
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .product_img {
+        width: 210px;
+        height: 210px;
+    }
+    .product .rent_product {
+        width: 310px;
+    }
+    .product .rent_product .product_pic{
+        flex-direction: column;
+        display: flex;
+    }
+    .olimp_img {
+        padding-top: 23px;
+        width: 340px;
+        height: 280px;
+    }
+    .catalog_item{
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+    } 
+}
+@media (max-width:320px){
+    .navbar .collapse{
+        display: none;
+    }
+    .comtainer{
+        width: auto;
+        height: auto;  
+    }
+    .olimp{
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .olimp_img {
+        padding-top: 23px;
+        width: 340px;
+        height: 280px;
+    }
+}
